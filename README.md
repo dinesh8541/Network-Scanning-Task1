@@ -34,7 +34,7 @@ This project demonstrates the use of **Nmap (Network Mapper)** to perform networ
 ## Command Used
 
 ```bash
-nmap -sV -A 10.171.65.231
+nmap -sV -A 10.94.103.101
 ```
 
 
@@ -45,7 +45,6 @@ nmap -sV -A 10.171.65.231
 | 135 | Open | MSRPC | Microsoft Remote Procedure Call |
 | 139 | Open | NetBIOS | File and Printer Sharing |
 | 445 | Open | Microsoft-DS | SMB Service |
-| 3306 | Open | MySQL | MySQL Database Service |
 
 
 ## Operating System
@@ -58,22 +57,20 @@ Microsoft Windows 11 (24H2–25H2)
 ```
 RD-Infro-Task1-Network-Scanning
 │
-├── README.md
-├── screenshots
-│   ├── Screenshot of ipconfig.png
-│   └── Screenshot of nmap.png
-└── output
-    └── nmap_scan.txt
+├  README.md
+│  Screenshot of ipconfig.png
+│  Screenshot of nmap.png
+└── scan_results
 ```
 
 
 ## Screenshots
 
 ### IP Configuration
-
+![IP Configuration](ip config.png)
 
 ### Nmap Scan Output
-
+![Nmap Scan](nmap.png)
 
 
 
@@ -81,7 +78,7 @@ RD-Infro-Task1-Network-Scanning
 
 The complete scan output is available in:
 
-- `output/nmap_scan.txt`
+![Scan results(scan_results.txt.png)
 
 
 ## Conclusion
